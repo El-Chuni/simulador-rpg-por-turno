@@ -1,0 +1,132 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Fredoka One', Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+button {
+    border: none;
+    color: black;
+
+    padding: 2px;
+
+    text-align: center;
+    margin: 5px 3px;
+
+    background-color: ghostwhite;
+}
+
+#pantallaEnemigo {
+    align-self: center;
+    size: 900px 382px;
+
+    background-image: url("../Multimedia/fondoDragonQuest.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 5vh;
+
+    color: azure;
+    text-align: center;
+    contain: content;
+}
+
+#introEnemigo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+
+    width: 50%;
+    max-width: 768px;
+
+    border: 2px;
+    border-color: blueviolet;
+    border-style: double;
+
+    color: aliceblue;
+    text-align: center;
+}
+
+#botonIntro1
+
+#botonIntro2
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+
+    max-width: 600px;
+}
+
+#menu > div > button {
+    padding: 4px;
+}
+
+#menu > strong {
+    color: aliceblue;
+}
+
+#info {
+    text-align: center;
+    color: aliceblue;
+}
+
+#fraseFinal {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#fraseFinal > p {
+    color: azure;
+}
+
+#fraseFinal > h2 {
+    color: red;
+}
+
+#fraseFinal > h4 {
+    color: yellow;
+}
+
+.malote {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 375px;
+
+    align-self: center;
+}
+
+@media only screen and (max-width: 900px) {
+    
+    body {
+        background-size: contain;
+    }
+
+}

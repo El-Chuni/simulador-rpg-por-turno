@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto simulación</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./CSS/fondoYPersonajes.css">
+    
+    
+</head>
+<body>
+    <header>
+        <h1 id="nombreJefe"></h1>
+    </header>
+
+    <main>
+        <input type="button" value="PLAY" onclick="play()">
+        <audio id="audio" src="./Multimedia/live-a-live-music-megalomania.mp3"></audio>
+
+        <section id="pantalla" >
+
+            <div id="introEnemigo">
+                <p>"???: ¿Acaso esperabas salir con vida de este sitio?"</p>
+                <button id="botonIntro1">=></button>
+            </div>
+            
+        </section>
+
+        <div>
+            <center id="menu"></center>
+        </div>
+
+        <section id="info">
+            <p id="tuAccion"></p>
+            <p id="laDelEnemigo"></p>
+        </section>
+
+        <div id="fraseFinal"></div>
+    </main>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./Javascript/miArchivo.js"></script>
+</body>
+</html>
